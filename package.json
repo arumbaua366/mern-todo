@@ -1,17 +1,29 @@
 {
   "name": "mern-todo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "App",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arumbaua366/mern-todo.git"
+  },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arumbaua366/mern-todo/issues"
+  },
+  "homepage": "https://github.com/arumbaua366/mern-todo#readme",
   "dependencies": {
+    "colors": "^1.4.0",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "mongoose": "^6.3.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }
